@@ -1,10 +1,3 @@
-declare type OslosykkelResponse<T> = {
-  last_updated: number
-  data: {
-    stations: T[]
-  }
-}
-
 declare type StationInformation = {
   station_id: string
   name: string
@@ -15,8 +8,6 @@ declare type StationInformation = {
   capacity?: number
 }
 
-declare type StationInformationResponse = OslosykkelResponse<StationInformation>
-
 declare type StationStatus = {
   station_id: string
   num_bikes_available: number
@@ -25,5 +16,3 @@ declare type StationStatus = {
   is_renting: boolean
   is_returning: boolean
 }
-
-declare type StationStatusResponse = OslosykkelResponse<StationStatus>
