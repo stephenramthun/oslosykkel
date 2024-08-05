@@ -10,6 +10,6 @@ def get_station_data():
         stations[station.station_id] = dict(station)
 
     for station in status.data.stations:
-        stations[station.station_id].update(station)
+        stations[station.station_id].update(dict(station))
 
-    return stations
+    return list(stations.values())
