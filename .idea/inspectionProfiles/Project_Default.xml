@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClassName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[A-ZÆØÅ][A-ZÆØÅa-zæøå\d]*" />
+    </inspection_tool>
+    <inspection_tool class="ConstPropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[A-ZÆØA][_A-ZÆØA\d]*" />
+    </inspection_tool>
+    <inspection_tool class="EnumEntryName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[A-ZÆØA]([A-ZÆØAa-zæøa\d]*|[A-ZÆØA_\d]*)" />
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="FunctionName" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="namePattern" value="[a-zæøa][A-ZÆØAa-zæøa\d]*" />
+    </inspection_tool>
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="LocalVariableName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[a-zæøa][A-ZÆØAa-zæøa\d]*" />
+    </inspection_tool>
+    <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ObjectPrivatePropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="_?[A-ZÆØAa-zæøa][_A-ZÆØAa-zæøa\d]*" />
+    </inspection_tool>
+    <inspection_tool class="ObjectPropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[A-ZÆØAa-zæøa][_A-ZÆØAa-zæøa\d]*" />
+    </inspection_tool>
+    <inspection_tool class="PackageName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[a-zæøa_][a-zæøaA-ZÆØA\d_]*(\.[a-zæøa_][a-zæøaA-ZÆØA\d_]*)*" />
+    </inspection_tool>
+    <inspection_tool class="PrivatePropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="_?[a-zæøa][A-ZÆØAa-zæøa\d]*" />
+    </inspection_tool>
+    <inspection_tool class="PropertyName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[a-zæøå][A-ZÆØÅa-zæøå\d]*" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyRelativeImportInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="stations.http.StationInformation.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TestFunctionName" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="namePattern" value="[a-zæøa][A-ZÆØAa-zæøa_\d]*" />
+    </inspection_tool>
+  </profile>
+</component>
